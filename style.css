@@ -1,0 +1,35 @@
+body{
+	background-color: #964B00;
+}
+
+.kartu{
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 70px;
+		box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0,.03);
+	transition: all .3s;
+	background-color: #ffa500;
+	border: solid 8px #b9e311;
+	border-top-right-radius: 80px;
+	border-bottom-left-radius: 80px;
+}
+.kartu:hover {
+	background-color: #e8e8e8;
+	border: solid 8px #4fd47e;
+	border-top-left-radius: 80px ;
+	border-top-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+.foto{
+	padding: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+tbody{
+	font-size: 15px;
+	font-weight: 300;
+	color: #whitesmoke;
+}
+.biodata{
+	margin-top: 15px;
+}
